@@ -5,46 +5,9 @@ Roll Number: SE24UCSE025
 Course: Artificial Intelligence  
 
 
-Overview
-
-This repository contains the implementation of Assignment 3 in Artificial Intelligence.  
-The assignment covers both theory and programming based on uninformed search, informed search, heuristics, Dijkstra’s algorithm, and UGV path planning in static and dynamic obstacle environments.
-
-The repository is divided into three major programming modules and one theory section.
-
-
-Theory Topics Covered
-
-The theory section includes the following topics:
-
-1. Comparison of Uninformed Search Techniques  
-   - Breadth-First Search  
-   - Uniform-Cost Search  
-   - Depth-First Search  
-   - Depth-Limited Search  
-   - Iterative Deepening Search  
-   - Bidirectional Search  
-
-2. Informed Search Techniques and Applications  
-   - Greedy Best-First Search  
-   - Best-First Search  
-   - Dijkstra’s Algorithm  
-   - A* Algorithm  
-   - Beam Search  
-   - Recursive Best-First Search (RBFS)  
-   - Iterative Deepening A* (IDA*)  
-   - Weighted A*  
-
-3. Heuristics  
-   - Satisficing Search  
-   - Inadmissible Heuristic  
-   - Formulating a heuristic for a search problem  
-   - Generating heuristics from subproblems  
-
-
 1. Dijkstra Algorithm for Indian Cities
 
-**Folder:** `Dijkstra_India_Cities`
+Folder: `Dijkstra_India_Cities`
 Objective
 To implement Dijkstra’s Algorithm, also known as Uniform-Cost Search in AI, to find the shortest path between Indian cities using road distances.
 
@@ -62,9 +25,11 @@ Files
 - `README.md`
 
 Run
-```bash
+
+bash
 cd Dijkstra_India_Cities
 python3 dijkstra_india.py
+
 
 2. UGV Navigation with Static Obstacles
 
